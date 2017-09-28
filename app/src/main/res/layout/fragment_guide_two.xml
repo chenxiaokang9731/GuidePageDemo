@@ -1,0 +1,98 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <com.demo.guidepagedemo.customview.CustomImageView
+        android:id="@+id/guide_two_font"
+        android:layout_width="99dp"
+        android:layout_height="19dp"
+        android:layout_centerInParent="true"
+        android:src="@mipmap/intro2_item_0"
+        app:in_value_x="1.2"
+        app:out_value_x="1.2" />
+
+    <com.demo.guidepagedemo.customview.CustomImageView
+        android:id="@+id/guide_two_tower"
+        android:layout_width="153dp"
+        android:layout_height="83dp"
+        android:layout_alignParentRight="true"
+        android:layout_alignParentTop="true"
+        android:layout_marginRight="20dp"
+        android:layout_marginTop="27dp"
+        android:src="@mipmap/intro2_item_1"
+        app:in_value_x="1.5"
+        app:out_value_x="1.5" />
+
+    <com.demo.guidepagedemo.customview.CustomImageView
+        android:id="@+id/guide_two_right_cloud"
+        android:layout_width="88dp"
+        android:layout_height="29dp"
+        android:layout_alignParentRight="true"
+        android:layout_alignParentTop="true"
+        android:layout_marginRight="10dp"
+        android:layout_marginTop="129dp"
+        android:background="@mipmap/intro2_item_3"
+        app:in_value_x="1.1"
+        app:out_value_x="1.1" />
+
+    <com.demo.guidepagedemo.customview.CustomImageView
+        android:id="@+id/guide_two_left_cloud"
+        android:layout_width="129dp"
+        android:layout_height="34dp"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentTop="true"
+        android:layout_marginLeft="12dp"
+        android:layout_marginTop="88dp"
+        android:src="@mipmap/intro2_item_2"
+        app:in_value_x="1"
+        app:out_value_x="0.8" />
+
+    <com.demo.guidepagedemo.customview.CustomImageView
+        android:id="@+id/guide_two_water"
+        android:layout_width="221dp"
+        android:layout_height="15dp"
+        android:layout_alignParentBottom="true"
+        android:layout_alignParentLeft="true"
+        android:layout_marginBottom="27dp"
+        android:layout_marginLeft="57dp"
+        android:src="@mipmap/intro2_item_5"
+        app:in_value_x="1"
+        app:out_value_x="1" />
+
+    <com.demo.guidepagedemo.customview.CustomImageView
+        android:id="@+id/guide_two_mountain"
+        android:layout_width="263dp"
+        android:layout_height="72dp"
+        android:layout_alignParentBottom="true"
+        android:layout_alignParentRight="true"
+        android:layout_marginBottom="32dp"
+        android:src="@mipmap/intro2_item_6"
+        app:in_value_x="0.8"
+        app:out_value_x="0.8" />
+
+    <com.demo.guidepagedemo.customview.CustomImageView
+        android:id="@+id/guide_two_torn"
+        android:layout_width="93dp"
+        android:layout_height="205dp"
+        android:layout_alignParentBottom="true"
+        android:layout_alignParentLeft="true"
+        android:layout_marginBottom="29dp"
+        android:src="@mipmap/intro2_item_7"
+        app:in_value_x="1"
+        app:out_value_x="1" />
+
+    <com.demo.guidepagedemo.customview.CustomImageView
+        android:id="@+id/guide_two_bottom_cloud"
+        android:layout_width="52dp"
+        android:layout_height="11dp"
+        android:layout_alignParentBottom="true"
+        android:layout_alignParentLeft="true"
+        android:layout_marginBottom="36dp"
+        android:layout_marginLeft="32dp"
+        android:src="@mipmap/intro2_item_4"
+        app:in_value_x="1"
+        app:out_value_x="1" />
+
+</RelativeLayout>

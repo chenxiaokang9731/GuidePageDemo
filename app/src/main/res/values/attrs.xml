@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <declare-styleable name="CustomImageView">
+        <attr name="in_value_x" format="float" />
+        <attr name="in_value_y" format="float" />
+        <attr name="out_value_x" format="float" />
+        <attr name="out_value_y" format="float" />
+    </declare-styleable>
+
+
+
+</resources>
